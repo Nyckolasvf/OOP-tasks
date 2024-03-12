@@ -31,17 +31,17 @@ public class GreetingServlet extends HttpServlet {
             if(hours>=5 && hours<12){
                 out.println("<h1> Bom dia!</h1>");
                 out.println("<img src=https://i.pinimg.com/originals/05/d5/05/05d5057fc7371e63ecfdb2b743ee82ab.gif>");
-            }else if(hours>=12 && hours<16){
+            }else if(hours>=12 && hours<18){
                 out.println("<h1> Boa tarde!</h1>");
                 out.println("<img src=https://i.pinimg.com/originals/a4/7e/5b/a47e5b19b0dfdb05c0773938d8b0a698.gif>");
-            }else if(hours>=16 && hours<23){
+            }else if(hours>=18 && hours<23){
                 out.println("<h1> Boa noite!</h1>");
                 out.println("<img src=https://www.frasesdiarias.com.br/wp-content/uploads/2021/02/boa-noite-gif-permita-se-ser-feliz.gif>");
             }else if(hours>=23 && hours<5){
                 out.println("<h1> VAI DORMIR!</h1>");
                 out.println("<img src=https://j.gifs.com/864ZQl.gif>");
             }
-            out.println("<a href=random.html> Random <a>");
+            out.println("<a href=random.html> Random </a>");
             out.println("</body>");
             out.println("</html>");
         }
