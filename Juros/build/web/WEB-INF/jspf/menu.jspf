@@ -1,0 +1,8 @@
+<%@ page pageEncoding="UTF-8" %>
+<p>
+    <a href="index.jsp">
+        <img src="https://e7.pngegg.com/pngimages/474/779/png-clipart-computer-icons-home-page-button-button-angle-logo-thumbnail.png" alt="Home button" style="width:42px;height:42px;">
+    </a>
+    <a href="juros_compostos.jsp">Juros Compostos</a>
+    <a href="juros_simples.jsp"> Juros Simples</a>
+</p>
